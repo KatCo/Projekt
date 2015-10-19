@@ -1,1 +1,15 @@
- is just a test
+HTML CSS
+
+Bei der Anwednung wird es eine Hauptseite mit zwei Buttons geben. Diese stehen für zwei weitere Seiten.
+Es wird so gleich eine Kategorisierung getroffen, die dem Benutzer eine Struktur vorgibt.
+
+Auf den jeweiligen Seiten wird es die Funktion "hinzufügen", "löschen" "bearbeiten" und "zurück" geben. Die Funktionen werden mit Hilfe von verschiednen Buttons gegeben.
+
+Durch die Funktion "hinzufügen" legt der Benutzer einen neuen Steckbrief an. In diesem kann er verschiedene Themenfelder ausfüllen.
+Unter anderem Hobbys, Interessen, Lieblingsfarbe ,Lieblingsgeschäft usw.
+
+Es wird also eine Hauptseite, auf der entschieden wird, ob es um einen Freund oder ein Familienmitglied geht geben. Danach gelangt man zu der ausgewählten Seite. Hier werden nun mittels ButtonKlick Steckbriefe angelegt oder gelöscht. Mittels Klick auf einen Steckbrief wird dieser aufgerufen. Durch einen weiteren Klick auf den Bearbeitungsbutton gelangt man in den Bearbeitungsmodus.
+
+Mit HTML wird das Grundgerüst aufgebaut und die verschiedenen Seiten untereinander verlinkt CSS sorgt später für das Design.
+
+
