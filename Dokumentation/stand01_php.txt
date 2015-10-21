@@ -13,3 +13,4 @@ Diese ist notwendig, damit der Anwender Daten zu
 	oder Feiertagen eine Erinnerung, aus den Einrägen der Datenbank, sendet.
 5.	Außerdem soll die Möglichkeit gegeben werden, die Steckbriefe mit Bildern auszustatten. Dafür
 	wird eine Bildupload-Funktion benötigt.
+	TEST
