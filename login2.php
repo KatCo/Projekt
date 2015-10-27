@@ -12,7 +12,7 @@
 					echo("Du bist eingeloggt!");
 					include("home.html");
 				}
-			else 
+			else // Sind die Benutzereingaben falsch, gelangt man zurück zur login.html
 			{
 				echo ("Anmeldung fehlgeschlagen. Versuche es erneut!");
 				include("login.html");
