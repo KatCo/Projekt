@@ -12,7 +12,7 @@
 					echo("Du bist eingeloggt!");
 					include("home.html");
 				}
-			if ($_SESSION["login"] != 1); // Ist der User nicht eingeloggt, wird die "login.html"-SEite aufegrufen
+		else // Ist der User nicht eingeloggt, wird die "login.html"-SEite aufegrufen
 			{
 				echo ("Anmeldung fehlgeschlagen. Versuche es erneut!");
 				include("login.html");
