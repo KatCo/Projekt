@@ -9,11 +9,15 @@ $handle = fopen("csvformular.csv", "a+");//Datei wird geöffnet, Modus a+ = Lesen
 	exit; //Programm wird beendet
 	}
 	
+	//Variablen später an HTML-Formular anpassen
 	fwrite ($handle,  $_POST["vname"] . ";" //Daten werden in die Datei geschrieben
 					. $_POST["zname"] . ";"
-					. $_POST["männl"] . ";"
-					. $_POST["weibl"] . ";"
-					. $_POST["alter"] . ";\n"
+					. $_POST["alter"] . ";\n");
+	
 			
+	fclose($handle); //Datei wird wieder geschlossen
+	
+	echo("Danke".$vname." , deine Angaben wurden gespeichert!");
+
 
 ?>
