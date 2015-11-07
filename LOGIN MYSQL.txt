@@ -1,0 +1,14 @@
+CREATE TABLE `presentmanager`.`login` (
+ 
+ `idLOGIN` INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '',
+ 
+ `Name` VARCHAR(45) NULL COMMENT '',
+ 
+ `Passwort` VARCHAR(45) NULL COMMENT '',
+ 
+ PRIMARY KEY (`idLOGIN`)  COMMENT '')
+
+ ENGINE=INNODB; 
+
+select *from presentmanager.login;
+
