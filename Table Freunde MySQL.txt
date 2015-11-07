@@ -1,0 +1,27 @@
+CREATE TABLE `presentmanager`.`freunde` (
+ 
+ `idFreunde` INT NOT NULL COMMENT '',
+
+  `Vorname` VARCHAR(45) NULL COMMENT '',
+ 
+ `Nachname` VARCHAR(45) NULL COMMENT '',
+ 
+ `Geburtsdatum` DATE NULL COMMENT '',
+  `Age` TINYINT(3) NULL COMMENT '',
+ 
+ `Hobbys` VARCHAR(45) NULL DEFAULT 'default' COMMENT '',
+ 
+ `Image` BLOB NULL COMMENT '',
+
+  PRIMARY KEY (`idFreunde`)  COMMENT '')
+ 
+ ENGINE=INNODB;
+   SELECT Vorname,Geburtsdatum, CURDATE(), 
+                   
+ TIMESTAMPDIFF(YEAR,Geburtsdatum,CURDATE()) AS'Age in years'
+			  
+  FROM presentmanager.freunde ORDER BY idFreunde;
+                    
+                   
+			
+                    
