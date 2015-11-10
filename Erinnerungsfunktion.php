@@ -1,10 +1,23 @@
 <?php
-$db = file("csvformular.csv"); //CSV-Tabelle in Variable gespeichert
+//date_default_timezone_set("Europe/Berlin");
+$timestamp = time();
+$datum = date("d.m.Y", $timestamp);
+$datei = fopen("csvformular.csv", "r");
 
-$id = fopen($db, "r"); //Datei öffnen
+while($zeile = fgets($datei, 1024)){
+	$spalten = explode(";", $zeile);
 
-while ($data = fgetcsv($id, filesize($db))) //Schleife
-	$table[] = $data; //setzt jede Zeile der Tabelle in ein Array
-	fclose($id); //schließt die Datei
+	echo $spalten[2];
+}
 	
-if 
+
+
+	
+fclose($datei);
+
+  
+?>
+  
+  
+	
+
