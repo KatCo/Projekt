@@ -10,8 +10,9 @@ while(($data = fgetcsv($datei, 1000, ";")) !== FALSE) { //while-schleife zum bef
 			//Ausgabe durch Ansprechen des entsprechenden Array-Indexes 
 			echo "<p>Steckbrief</p>";
 			echo "<p>Name: ".$csv[0][0]."</p>";
-			echo "Nachname: ".$csv[0][1]."</p>";
-			echo "Geburtstag: ".$csv[0][2]."</p>";
+			echo "<p>Geburtstag: ".$csv[0][1]."</p>";
+			echo "Interessen: ".$csv[0][2]."</p>";
+			echo "Anmerkungen: ".$csv[0][3]."</p>";
 	
     
 
