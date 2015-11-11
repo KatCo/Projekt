@@ -2,7 +2,8 @@
 // Anzeigen der CSV-Inhalte
 $datei = fopen("csvformular.csv", "r"); //Datei zum lesen öffnen
 $csv = array(); 						//anlegen eines Arrays
-while(($data = fgetcsv($datei, 1000, ";")) !== FALSE) { //while-schleife zum befüllen des Arrays mit den Daten
+//Hier fehlt eine for-Schleife um die Datensätze ausgeben zu können
+while(($data = fgetcsv($datei, 1000, ";")) !== FALSE) { //while-schleife zum befüllen des Arrays
 	 $csv[] = $data;
 	//var_dump($data); 					//Inhalte des Arrays anzeigen
 }
