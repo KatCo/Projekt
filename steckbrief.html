@@ -20,6 +20,9 @@
 								<fieldset>
 									<legend> Lege deinen Steckbrief an</legend>
 											<!--Hier wird der Steckbrief erstellt.-->
+											<label for=sex>Geschlecht</label>
+											<input type=radio name=sex value=m checked=checked >männlich
+											<input type=radio name=sex value=w checked=checked >weiblich
 											<label for=firstname>Name</label>
 											<input type=text name=firstname>
 											<br>
@@ -34,10 +37,9 @@
 											
 											<textarea name=note> hier ist Platz für weitere Notizen</textarea>
 											<br>
-											<label for=sex>Geschlecht</label>
-											<input type=radio name=sex value=m checked=checked />männlich
-											<input type=radio name=sex value=w checked=checked />weiblich
-							
+											
+											<input type=submit name=save value=Speichern>
+											
 								</fieldset>
 							</form>
 							

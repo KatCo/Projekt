@@ -64,7 +64,8 @@ fieldset {
 }
 
 input{
-  padding: 10px;
+  padding: 20px;
+  margin:30px;
   border: none;
   border-bottom: solid 2px #ffffff;
   transition: border 0.3s;
