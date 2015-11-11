@@ -1,9 +1,4 @@
-.wrapper {
-	
-   width: 960px; /* 1067px - 10% for margins */
-   margin: 0 auto;
 
-}
 
 body{
 	
@@ -12,11 +7,11 @@ body{
 }
 
 h1{
-text-align:center;
+
 background-color:#ffc2d2;
 color:#fffafa;
 }
-
+/* Gestaltung der Links */
 a:link {
 	color:#fffafa;
 	text-decoration:none;
@@ -30,30 +25,56 @@ a:hover{
 	color:#ffc2d2;
 	
 }
+ul{
+	list-style:none;
+}
+#button{
+	list-style-image: url("images/test2.gif");
+}
+li{
+	margin: 10px 0px 0px 0px;
+}
+	
+	
+	
+	
+/* Gestaltung der Formulare */
 
 legend {
-	background-color: #efefef;
-	border: 1px solid #dcdcdc;
+	background-color: #ffc2d2;
+	border: 1px solid #FFFFFF;
 	border-radius: 10px;
 	padding: 10px 20px;
 	text-align: left;
 	text-transform:uppercase;
 }
 
-fieldset {
-	width: 350px;
-	border:1px solid #dcdcdc;
-	border-radius: 10px;
-	padding: 20px;
-	text-align:right;
+label { 
+	display: inline-block; width: 9em; 
 }
 
-ul{
-	list-style:none;
-	}
-#button{
-	list-style-image: url("images/test2.gif");
-	}
-li{
-	margin: 10px 0px 0px 0px;
-	}
+fieldset {
+	width: 450px;
+	height:500px;
+	background-color: #ffc2d2;
+	border:1px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 20px;
+	text-align:left;
+}
+
+input{
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #ffffff;
+  transition: border 0.3s;
+  background-color: #ffc2d2;
+}
+
+textarea {
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #ffffff;
+	transition: border 0.3s;
+	background-color: #ffc2d2;
+}

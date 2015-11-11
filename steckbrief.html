@@ -20,12 +20,23 @@
 								<fieldset>
 									<legend> Lege deinen Steckbrief an</legend>
 											<!--Hier wird der Steckbrief erstellt.-->
-											Name:<input type=text name=firstname><br />
-											Geburtstag:<input type=date name=birthdate><br />
-											Interessen:<br /><textarea name=hobbys> Schreibe etwas über die Hobbys...</textarea><br />
-											Anmerkungen:<br /><textarea name=note> hier ist Platz für weitere Notizen</textarea><br />
-											Geschlecht:<input type=radio name=sex value=m checked=checked />männlich
-														<input type=radio name=sex value=w checked=checked />weiblich
+											<label for=firstname>Name</label>
+											<input type=text name=firstname>
+											<br>
+											<label for=birthdate>Geburtstag</label>
+											<input type=date name=birthdate>
+											<br>
+											<label for=hobbys>Interessen</label>
+											
+											<textarea name=hobbys> Schreibe etwas über die Hobbys...</textarea>
+											<br>
+											<label for=note>Anmerkungen</label>
+											
+											<textarea name=note> hier ist Platz für weitere Notizen</textarea>
+											<br>
+											<label for=sex>Geschlecht</label>
+											<input type=radio name=sex value=m checked=checked />männlich
+											<input type=radio name=sex value=w checked=checked />weiblich
 							
 								</fieldset>
 							</form>
