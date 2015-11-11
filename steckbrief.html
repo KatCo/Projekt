@@ -8,27 +8,32 @@
 		<title>Geschenke Manager</title>
 	</head>
 		<body>
-			<header>
-				<h1 id="top">Der Geschenke Manager</h1>
-			</header>
-				<main>
+			
+				<header class="wrapper clearfix" onclick="window.href='index.php';"> </header>
+			
+			<main></main>
+				
 					<h1>Mache deine Steckbrief!</h1>
 						<ul>
 			
-							<form id="steckbrief">
-								<!--Hier wird der Steckbrief erstellt.-->
-								Name:<input type=text><br />
-								Geburtstag:<input type=date><br />
-								Interessen:<br /><textarea name=hobbys> Schreibe etwas über die Hobbys...</textarea><br />
-								Anmerkungen:<br /><textarea name=note> hier ist Platz für weitere Notizen</textarea><br />
-								Geschlecht:<input type=radio name=sex value=m checked=checked />männlich
-											<input type=radio name=sex value=w checked=checked />weiblich
+							<form action="formsave.php" method="post">
+								<fieldset>
+									<legend> Lege deinen Steckbrief an</legend>
+											<!--Hier wird der Steckbrief erstellt.-->
+											Name:<input type=text name=firstname><br />
+											Geburtstag:<input type=date name=birthdate><br />
+											Interessen:<br /><textarea name=hobbys> Schreibe etwas über die Hobbys...</textarea><br />
+											Anmerkungen:<br /><textarea name=note> hier ist Platz für weitere Notizen</textarea><br />
+											Geschlecht:<input type=radio name=sex value=m checked=checked />männlich
+														<input type=radio name=sex value=w checked=checked />weiblich
 							
+								</fieldset>
 							</form>
+							
 			
 						</ul>
 				
-				</main>
+				
 			
 			<footer>
 				<ul>
