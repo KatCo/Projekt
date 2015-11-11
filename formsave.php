@@ -2,9 +2,10 @@
 
 <?php
 //Speichern von Formularinhalten in einer Tabelle, also csv-Datei(später in der Datenbank)
-$vname = $_POST["vname"];
-$zname = $_POST["zname"];
-$alter = $_POST["alter"];
+$name = $_POST["firstname"];
+$geb = $_POST["birthdate"];
+$hobby = $_POST["hobbys"];
+$note = $_POST["note"];
 
 $handle = fopen("csvformular.csv", "a+");//Datei wird geöffnet, Modus a+ = Lesen und Schreiben, Datei wird automatisch erstellt, Inhalte werden nicht überschrieben(Dateizeiger am Ende)
 	if (!$handle)
@@ -14,14 +15,17 @@ $handle = fopen("csvformular.csv", "a+");//Datei wird geöffnet, Modus a+ = Lesen
 	}
 	
 	//Variablen später an HTML-Formular anpassen
-	fwrite ($handle, $vname . ";" //Daten werden in die Datei geschrieben
-					. $zname . ";"
-					. $alter . ";\n");
+	fwrite ($handle, $name . ";" //Daten werden in die Datei geschrieben
+					. $geb . ";"
+					. $hobby . ";"
+					. $note . ";\n");
+			
+			
 	
 			
 	fclose($handle); //Datei wird wieder geschlossen
 	
-	echo("Danke, der Steckbrief von ".$vname." wurde gespeichert!");
+	echo("Danke, der Steckbrief von ".$name." wurde gespeichert!");
 
 
 ?>
