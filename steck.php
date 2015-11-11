@@ -7,7 +7,7 @@ while(($data = fgetcsv($datei, 1000, ";")) !== FALSE) { //while-schleife zum bef
 	 $csv[] = $data;
 	//var_dump($data); 					//Inhalte des Arrays anzeigen
 }
-			//Ausgabe durch Ansprechen des entsprechenden Array-Indexes 
+			//Ausgabe durch Ansprechen des entsprechenden Array-Indexes/ Erste Stelle bezieht sich auf den Datensatz/ zweite Stelle auf jeweilige Variable im Datensatz
 			echo "<p>Steckbrief</p>";
 			echo "<p>Name: ".$csv[0][0]."</p>";
 			echo "<p>Geburtstag: ".$csv[0][1]."</p>";
