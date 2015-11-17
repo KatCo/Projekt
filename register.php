@@ -1,5 +1,6 @@
 <?php
 //Registrieren
+//doppelte Benutzernamenüberprüfung funktioniert noch nicht vollständig
 //Variablen abfragen
 $name = $_POST["name"];
 $pass = $_POST["pass"];
@@ -10,11 +11,11 @@ if ($pass == $pass2) {
 	$name_2 = array();	//Wenn sie identisch sind, überprüfen, ob Benutzername schon einmal verwendet wurde ==>leeres Array
 	$pass = md5($pass); //Verschlüsselung des Passwortes
 	
-	$benutzerdatei = fopen ("benutzer.txt", "r"); //öffnen der Datei mit den Benutzernamen
+	$benutzerdatei = fopen ("benutzer.txt", "a+"); //öffnen der Datei mit den Benutzernamen
 	while (!feof($benutzerdatei)) {				// Datei wird Stück für Stück ausgelesen
 		$zeile = fgets($benutzerdatei, 500);
-		$data = explode(";", $zeile);
-		array_data ($name_2, $data[0]);			//Der Benutzername wird ins Array abgelegt
+		$data = explode("|", $zeile);
+		array_push ($name_2, $benutzerdatei[0]);			//Der Benutzername wird ins Array abgelegt
 	}
 	fclose($benutzerdatei); //Datei wird wieder geschlossen
 	
@@ -23,10 +24,10 @@ if ($pass == $pass2) {
 		include ("form.html");
 	}
 	else {
-		$eintrag = "$name ; $pass"; //Name und Passwort werden mit einem ";" getrennt und in eine Variable gespeichert
-		$benutzerdatei = fopen ("benutzer.txt", "a");
-		fwrite($benutzrdatei, "$eintrag\n");
-		fclose($benutzerdatei);
+		$eintrag = "$name | $pass "; //Name und Passwort werden mit einem "|" getrennt und in eine Variable gespeichert
+		$benutzerdatei = fopen ("benutzer.txt", "a"); //Datei wird geöffnet
+		fwrite($benutzerdatei, "$eintrag ;\n"); //Name und Passwort wird in die Datei geschrieben
+		fclose($benutzerdatei); //Datei wird geschlossen
 		
 		echo $name.", deine Anmeldung war erfolgreich! Jetzt kannst du loslegen! ";
 	}
@@ -38,8 +39,5 @@ else {
 			Bitte versuche es noch einmal!";
 			include("form.html");
 }
-
-
-
 
 ?>
