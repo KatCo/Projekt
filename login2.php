@@ -1,5 +1,5 @@
 <?php 
-
+/*
 	session_start(); //später mit MySQL
 	
 	$_logindaten = Array("name"=>"inga", "passwort"=>"12345"); //Speichern im Array, wie die Logindaten lauten müssten
@@ -22,3 +22,4 @@
 //$username = $_POST ["username"];
 //echo($username.", du bist eingeloggt!");
 ?>
+*/
