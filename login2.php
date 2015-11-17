@@ -7,7 +7,10 @@ $temp = 0; //Hilfsvariable
 $benutzerdatei = fopen ("benutzer.csv", "r"); //Datei wird geöffnet
 while (!feof($benutzerdatei)){  //Inhalt wird Zeile für Zeile gelesen
 	$zeile = fgetcsv($benutzerdatei, 500);
-	$data = explode(";/n", $zeile); //Benutzername und Passwort werden wieder getrennt
+	
+	//Fehler! Muss noch dran gearbeitet werden!
+	
+	$data = explode(";", "/n", $zeile); //Benutzername und Passwort werden wieder getrennt
 	//Prüfung, ob Benutzername UND Passwort mit Inhalt der Textdatei übereinstimmen
 	if ($data[0] == $name && $pass){  // Stimmen Name UND Passwort überein, erfolgt die Anmeldung
 		echo "Hi, ".$name."!";
