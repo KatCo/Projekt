@@ -1,4 +1,30 @@
-<?php 
+<?php
+//Variablen abfragen
+$name = $_POST["username"];
+$pass = $_POST["password"];
+$passv = md5($pass); //Passwort verschlüsseln
+$temp = 0; //Hilfsvariable
+
+$benutzerdatei = fopen ("benutzer.txt", "r"); //Datei wird geöffnet
+while (!feof($benutzerdatei)){  //Inhalt wird Zeile für Zeile gelesen
+	$zeile = fgets($benutzerdatei, 500);
+	$data = explode("|", $zeile); //Benutzername und Passwort werden wieder getrennt
+	
+	//Prüfung, ob Benutzername UND Passwort mit Inhalt der Textdatei übereinstimmen
+	if ($data[0]==$name && $passv ==trim($data[1])){ //Zeilenumbrüche werden entfernt, da Passwörter mit Zeilenumbruch gespeichert werden
+		echo "Hi, ".$name;
+		$temp = 1; //Variable wird auf 1 gesetzt, wenn die Benutzerdaten übereinstimmen
+		
+	}
+}
+fclose($benutzerdatei);
+
+if ($temp == 0) { //Ist die Variable noch auf null, wird der User nicht eingeloggt!
+	echo "Deine Benutzerdaten sind falsch. Versuche es noch einmal!";
+}
+
+
+
 /*
 	session_start(); //spÃ¤ter mit MySQL
 	
@@ -21,5 +47,6 @@
 		}
 //$username = $_POST ["username"];
 //echo($username.", du bist eingeloggt!");
+ 
+ */
 ?>
-*/

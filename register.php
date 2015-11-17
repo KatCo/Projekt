@@ -24,9 +24,9 @@ if ($pass == $pass2) {
 		include ("form.html");
 	}
 	else {
-		$eintrag = "$name | $pass "; //Name und Passwort werden mit einem "|" getrennt und in eine Variable gespeichert
+		$eintrag = "$name | $pass"; //Name und Passwort werden mit einem "|" getrennt und in eine Variable gespeichert
 		$benutzerdatei = fopen ("benutzer.txt", "a"); //Datei wird geöffnet
-		fwrite($benutzerdatei, "$eintrag ;\n"); //Name und Passwort wird in die Datei geschrieben
+		fwrite($benutzerdatei, "$eintrag\n"); //Name und Passwort wird in die Datei geschrieben
 		fclose($benutzerdatei); //Datei wird geschlossen
 		
 		echo $name.", deine Anmeldung war erfolgreich! Jetzt kannst du loslegen! ";
