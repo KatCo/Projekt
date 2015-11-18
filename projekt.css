@@ -2,10 +2,15 @@
 
 body{
 	
-	background-color:#ff99c2;
+	background-color:#F0ffF0;
 	text-align:center;
 }
-
+main{
+	background-color: #ffffff;
+	width: 600px;
+	
+	margin: auto;
+}
 h1{
 
 background-color:#ffc2d2;
