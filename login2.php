@@ -7,6 +7,8 @@ $temp = 0; //Hilfsvariable
 $benutzerdatei = fopen ("benutzer.csv", "r"); //Datei wird geöffnet
 while  ($data = fgetcsv($benutzerdatei, 1000, ";")) { //Inhalt wird Zeile für Zeile gelesen
 
+		$dat =	array_pop($data);
+		var_dump($data);
 
 	if ($data[0] == $name && $data[1] == $pass){  // Stimmen Name UND Passwort überein, erfolgt die Anmeldung
 	//	echo "Hi, ".$name."!";
@@ -18,10 +20,10 @@ while  ($data = fgetcsv($benutzerdatei, 1000, ";")) { //Inhalt wird Zeile für Ze
 
 		fclose($benutzerdatei);
 
-if ($temp=1) { //Ist die Variable noch auf null, wird der User nicht eingeloggt!
+if ($temp = 1) { //Ist die Variable noch auf null, wird der User nicht eingeloggt!
 	echo "Hi, $name du bist eingeloggt!";
 }
-else{
+ else {
 	echo "Deine Nutzerdaten sind falsch. Versuche es noch einmal!";
 	include("login.html");
 }
