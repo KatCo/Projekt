@@ -59,13 +59,14 @@ label {
 }
 
 fieldset {
-	width: 450px;
-	height:500px;
+	width: 400px;
+	height:350px;
 	background-color: #ffc2d2;
 	border:1px solid #FFFFFF;
 	border-radius: 10px;
 	padding: 20px;
 	text-align:left;
+	
 }
 
 input{
@@ -75,7 +76,29 @@ input{
   border-bottom: solid 2px #ffffff;
   transition: border 0.3s;
   background-color: #ffc2d2;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#333;
 }
+
+
+ 
+input.text{
+	
+	width:150px;
+	margin:0 0 10px 3px; 
+	padding:0; 
+	border:0; 
+	border-bottom:1px solid #333; 
+	}
+ 
+ 
+input.submit{
+cursor:pointer;
+font-size:14px; 
+border:0; 
+float:right;  
+font-weight:bold;}
 
 textarea {
 	padding: 10px;
