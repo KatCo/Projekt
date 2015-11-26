@@ -59,7 +59,7 @@ label {
 }
 
 fieldset {
-	width: 400px;
+	width: 450px;
 	height:350px;
 	background-color: #ffc2d2;
 	border:1px solid #FFFFFF;
@@ -85,7 +85,7 @@ input{
  
 input.text{
 	
-	width:150px;
+	width:160px;
 	margin:0 0 10px 3px; 
 	padding:0; 
 	border:0; 
@@ -103,7 +103,7 @@ font-weight:bold;}
 textarea {
 	padding: 10px;
 	border: none;
-	border-bottom: solid 2px #ffffff;
+	border-bottom:1px solid #333; 
 	transition: border 0.3s;
 	background-color: #ffc2d2;
 }
