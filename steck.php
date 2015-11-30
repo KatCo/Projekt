@@ -13,7 +13,7 @@ while(($data = fgetcsv($datei, 1000, ";")) !== FALSE) { //while-schleife zum bef
 
 foreach ($csv as list($csv2)) { //Auslesen der ersten Variable des jeweiligen Datensatzes
 //	foreach ($csv2 as $csv3) { //Auslesen des kompletten Arrays
-		echo "HTML-CODE mit Logo"; //Ausgeben eines Logos
+		echo "HTML-CODE mit Logo und Verlinkung"; //Ausgeben eines Logos, Verlinkung auf Steckbrief
 		echo	"<p>$csv2</p>"; //Ausgeben der ersten Variable -> Name
 		
 	}
