@@ -37,7 +37,7 @@ else {
 	//Stimmen die Passwörter nicht überein, erscheint ein Hinweis
 	echo "Die eingegebenen Passwörter stimmen nicht überein. 
 			Bitte versuche es noch einmal!";
-			include("form.html");
+			include("reg.html");
 }
 
 ?>
