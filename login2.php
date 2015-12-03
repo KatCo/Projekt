@@ -3,7 +3,7 @@
 $name = $_POST["username"];
 $pass = $_POST["password"];
 $temp = 0; //Hilfsvariable
-$count = 1;
+
 $benutzerdatei = fopen ("benutzer.csv", "r"); //Datei wird geöffnet
 while  ($data = fgetcsv($benutzerdatei, 1000, ";")) { //Inhalt wird Zeile für Zeile gelesen
 
@@ -20,7 +20,7 @@ while  ($data = fgetcsv($benutzerdatei, 1000, ";")) { //Inhalt wird Zeile für Ze
 		}
 		else {									//Andernfalls müssen die Benutzerdaten erneut eigegeben werden
 			echo "Deine Nutzerdaten sind falsch. Versuche es noch einmal!";
-			include("login.html");
+			include("index.html");
 
 		}
 	

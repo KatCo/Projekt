@@ -11,6 +11,7 @@ while(($data = fgetcsv($datei, 1000, ";")) !== FALSE) { //while-schleife zum bef
 			
 			
 }
+//Schleife mit Namen und Logo funktioniert --> Speichern der Variable in SESSION noch nicht (zeigt auf Folgeseite immer den Namen des letzten Datensatzes an)
 
 foreach ($csv as list($csv2)) { 				//Auslesen der ersten Variable des jeweiligen Datensatzes
 //	foreach ($csv2 as $csv3) { 					//Auslesen des kompletten Arrays
