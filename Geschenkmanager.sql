@@ -46,5 +46,7 @@ PHPlerin, aber die eigentlichten Transaktionen müssen Sie dann einfügen.
 
 Wichtig für Ihren Anteil am Projekt ist, dass der MySQL-Teil tatsächlich in den PHP-Teil integriert ist.
 
+Werfen Sie auch nochmal einen Blick die den Lernraum in EMIL: Sie können die Relationen mit weniger Aufwand programmieren.
+
 === Feedback Alpers, Ende ===
 */
