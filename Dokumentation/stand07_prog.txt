@@ -1,0 +1,22 @@
+
+6. Auch nach diversen Recherchen hatte ich keine Idee, wie ich die Schleife zum Auslesen realisieren könnte. Daher beschloss ich mich einer
+   anderen Baustelle zu widmen, um später auf dieses Problem zurück zukommen.
+
+   Nachdem ich nun schon ein bisschen mehr in PHP programmiert und ausprobiert hatte, wagte ich mich nun an eine Registrierung und einem neuen Login.
+   
+   Für die Registrierung wollte ich zweimal das Passwort eingeben lassen und vergleichen, ob die Passwörter übereinstimmen. Auch eine Überprüfung
+   auf doppelte Benutzernamen, sollte Bestandteil, der Registrierung sein.
+   
+   Da es noch keine Datenbank gibt, umging ich dies wieder mit einer extra Datei, um auszuprobieren, ob mein programmierter Code auch funktioniert.
+   Bei der Überprüfung wollte ich den eingebenen Benutzernamen in ein Array speichern, wenn dieser schon in dem Array existiert, erscheint ein Hinweis,
+   wenn nicht, wird er in die Datei dazugeschrieben.
+
+   Der Name und das Passwort werden mit einem Zeichen getrennt in eine Textdatei geschrieben.
+
+   Die Textdatei, habe ich nach einigem rumprobieren durch eine CSV-Datei ersetzt, da es mir konfortabler erschien und sie mir ja nur als kleines
+   Hilfsmittel dient.
+
+   Nachdem ich auch die Login-Datei überarbeitet hatte (eingebene Daten werden mit den gespeichten Daten verglichen), funktionierten beide Funktionen
+   gut miteinander.
+
+   

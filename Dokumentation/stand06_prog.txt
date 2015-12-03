@@ -1,0 +1,11 @@
+
+5. Da nun bereits zwei Funktionen daran gescheitert waren, dass ich keine gespeicherten Inhalte abfragen konnte, erklärte ich das
+   zum nächsten Ziel. 
+
+   Ich versuchte also, die kompletten gespeicherten Inhalte auszugeben. Dazu öffnete ich die Datei und packte die kompletten Inhalte
+   mit einer while-Schleife in ein Array. Da das Trennen der Werte im Array durch aufsplitten mit "explode" und dem Semikolon, nicht funktionierte,
+   packte ich das Array in noch ein Array. Mit "var_dump" las ich das Array aus und wusste nun, mit welchem Index ich was auslesen konnte.
+   Mit ein bisschen HTML(Name, Nachname, Geburtstag) hatte ich nun den Vorläufer eines Steckbriefes. Das nächste Ziel ist also, mithilfe einer
+   Schleife die Informationen des Steckbriefes abrufen zu können und sie nicht statisch, durch Ansprechen der Indexe, im Quelltext zu verankern.
+
+  

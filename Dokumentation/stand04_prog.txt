@@ -1,0 +1,14 @@
+
+3. Dann beschäftigte ich mich damit, wie man überhaupt mithilfe von PHP auf Datenbanken zugreifen kann,
+   um zu verstehen, welche Herangehensweise als nächstes sinnvoll wäre. Mir war zunächst nicht ganz klar,
+   wie MYSQL und PHP zusammenarbeiten sollen, beziehungsweise welche Aufgaben davon in meinen PHP-Bereich fallen und
+   welche in den MYSQL-Bereich meiner Teamkollegin. Daher versuchte ich zuerst eine Datenbankverbindung zu programmieren
+   und merkte dann, dass ich damit wohl etwas weit vorgegriffen hatte, dachte dann aber, dass man die PHP-Datei ja später
+   irgendwann in die entsprechenden HTML-Dateien inkludieren könnte.
+
+   Der Kernpunkt unseres Programmes soll die Eingabe, Speicherung und das Anzeigen von Daten aus einer Datenbank sein.
+   Da die Datenbank noch nicht steht, half ich mir mit einer csv-Tabelle aus, um zu probieren, wie sich Daten mit PHP
+   verarbeiten lassen. Die csv-Tabelle wird automatisch erstellt, sobald Daten aus dem HTML-Formular gespeichert werden sollen.
+   Das Abfragen und speichern der Daten aus dem HTML-Formular meiner Teamkollegin (welches später das Steckbrief-Formular werden soll),
+   funktionierte ohne größere Probleme.
+   

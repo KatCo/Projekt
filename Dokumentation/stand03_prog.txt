@@ -1,0 +1,12 @@
+
+2. Um einen gemeinsamen Nenner zu finden, wurde von jedem Teammitglied ein Designvorschlag
+   eingereicht, die vom HTML-Mitglied dann umgesetzt werden.
+   Meine Herangehensweise bestand darin, mir eine konkrete Zielgruppe auszudenken und darauf dann
+   das grobe Design, die Platzierung der Elemente und auch die Funktionen aufzubauen.
+   Unsere Idee ist für Menschen, die Spaß daran haben, Dinge zu organisieren, für den Typ Mensch, der
+   gerne To-Do-Listen schreibt oder ordentliche Notizbücher führt. Daher habe ich mich grob für die
+   Bildung eines Stereotypen auf "Mädchen/Frauen zwischen 14 ud 25" festegelegt. Mein Design-Vorschlag
+   hat demnach als Hauptfarbe Pink/Grau/Weiß, mit einer aufgeräumten, cleanen Anordnung der Elemente und 
+   kleinen Doodle-Applikationen zur Auflockerung. Die Visualisierung des Designs half mir desweiteren dabei,
+   zu verstehen, welche PHP-Funktionen gebraucht werden, was wichtig ist und was nicht.   
+   
