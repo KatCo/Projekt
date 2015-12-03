@@ -29,3 +29,12 @@ $handle = fopen("csvformular.csv", "a+");//Datei wird geöffnet, Modus a+ = Lesen
 
 
 ?>
+
+<!--
+=== Feedback Alpers, Dez 3 ===
+
+Sehr schön, dass Sie sich über die Inhalte der Veranstaltung hinaus mit dem Thema beschäftigt haben.
+Sie haben damit, mit Ihrer Dokumentation und mit den entwickelten Programmen gezeigt, dass Sie
+im Stande sind, als vollwertiges Mitglied in einem Team zur Softwareentwicklung zu arbeiten.
+
+=== Feedback Alpers, Ende ===

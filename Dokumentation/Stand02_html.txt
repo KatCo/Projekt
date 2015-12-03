@@ -4,4 +4,9 @@ Erstellung von index.html, home.html, login.html
 Es wurde ein Beispielbild gezeichnet, welches die Startseite repräsentiert und den Anwender auf die Login Seite weiterleitet.
 Auf der Seite home.html wurde eine Liste erstellt, welche die beiden Buttons enthält. Im Moment sind an dieser Stelle lediglich zwei Verlinkungen
 
+=== Feedback Alpers, Dez 3 ===
 
+Bitte dokumentieren Sie kontinuierlich den Fortschritt Ihres Projektanteils.
+Nur so kann ich Ihnen ggf. hilfreiche Hinweise geben und erkennen, wie Sie vorankommen.
+
+=== Feedback Alpers, Ende ===

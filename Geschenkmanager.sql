@@ -35,5 +35,16 @@ CREATE TABLE `gechenkmanager`.`freunde` (
 
 select  *from freunde; 
 
+/*
+=== Feedback Alpers, Dez 3 ===
 
+Bitte trennen Sie die Erzeugung der Relationen von Transaktionsaufrufen.
 
+Setzen Sie sich bitte auch mit der PHPlerin Ihrer Gruppe zusammen, um zu klären, an welchen Stellen
+Transaktionen in den PHP-Code eingefügt werden sollen. Denn zwar ist die Programmierung davon zum Großteil Aufgabe der
+PHPlerin, aber die eigentlichten Transaktionen müssen Sie dann einfügen.
+
+Wichtig für Ihren Anteil am Projekt ist, dass der MySQL-Teil tatsächlich in den PHP-Teil integriert ist.
+
+=== Feedback Alpers, Ende ===
+*/

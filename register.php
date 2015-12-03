@@ -1,6 +1,21 @@
 <?php
 //Registrieren
 //doppelte Benutzernamenüberprüfung funktioniert noch nicht vollständig
+
+/*
+=== Feedback Alpers, Dez 3 ===
+
+Hier wäre wichtig, dass Sie kurz erläutern, was genau an der doppelten Benutzernamenprüfung nicht funktioniert.
+Erstellen Sie dazu einige Testfälle, also Eingaben bzw. Datenbankbestände.
+Nun untersuchen Sie, in welchen Fällen die Prüfung funktioniert und in welchen Fällen sie nicht funktioniert.
+Ergänzen Sie außerdem an mehreren Stellen im Programm Asugaben, also Programmzeilen, die 
+den aktuellen Stand des Array und den Wert der aktuellen Variablen ausgeben.
+So können Sie durch Vergleiche meist schnell herausfinden, in welcher/n Programmzeile/n die
+Ursache für das Problem liegt.
+
+=== Feedback Alpers, Ende ===
+*/
+
 //Variablen abfragen
 $name = $_POST["name"];
 $pass = $_POST["pass"];

@@ -15,6 +15,15 @@
    tatsächlich eine Variable übertragen. Bisher funktionierte es aber nur sehr eingeschränkt, da immer nur die erste Variable des letzten Datensatzes
    übertragen wird.
 
-    
+=== Feedback Alpers, Dez 3 ===
+
+Sehr gute Dokumentation des Fortschritts. Sehr gut ist insbesondere, dass erkennbar ist, warum Sie an welchen Stellen weiter gearbeitet haben.
+In der Praxis werden Sie wahrscheinlich meist nicht in dieser Tiefe dokumentieren können, aber es ist gut, wenn Sie sich frühzeitig daran gewöhnen.
+
+Wegen Ihres Problems mit der Übertragung der Varialen: Da sind Sie auf eines der Hauptprobleme bei der Übergabe von Daten zwischen
+zwei verschiedenen Programmiersprachen getroffen. Mein Tipp wegen des Problems "immer nur die erste Variable des letzten Datensatzes": Klären Sie
+im Team ab, dass bei einem submit eben immer nur Daten übertragen werden, die sich auf einen Datensatz beziehen.
+
+=== Feedback Alpers, Ende ===    
 
    
