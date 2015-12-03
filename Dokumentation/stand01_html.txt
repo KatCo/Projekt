@@ -13,3 +13,12 @@ Es wird also eine Hauptseite, auf der entschieden wird, ob es um einen Freund od
 Mit HTML wird das Grundgerüst aufgebaut und die verschiedenen Seiten untereinander verlinkt CSS sorgt später für das Design.
 
 
+Stand HTML 26.10.15
+
+Erstellung von index.html, home.html, login.html
+Es wurde ein Beispielbild gezeichnet, welches die Startseite repräsentiert und den Anwender auf die Login Seite weiterleitet.
+Auf der Seite home.html wurde eine Liste erstellt, welche die beiden Buttons enthält. Im Moment sind an dieser Stelle lediglich zwei Verlinkungen
+
+
+Stand 02.12.15
+
