@@ -1,0 +1,10 @@
+
+1. Erste Schritte mit PHP --> Programmieren eines enfachen Logins
+	- Verwendung von Sessions 
+	- Verwendung von Array mit vorgegebenem Namen und Passwort
+	- auf der HTML-Seite wird auf die PHP-Datei verwiesen und mit Post-Array werden die
+	  eingebenen Daten übertragen
+	- es wird geprüft, ob der eingebene Name UND das Passwort mit dem zuvor im Array
+	  festgelegten Daten übereinstimmt
+	- Stimmen die Daten überein, erscheint ein HInweis
+	- Stimmen die Daten nicht überein, erscheint ein Hinweis und die login-Seite wird angezeigt

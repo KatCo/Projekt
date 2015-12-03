@@ -1,0 +1,20 @@
+
+7. Nachdem ich die Registrierung und den Login erfolgreich programmiert hatte, versuchte ich weiter an meinem alten Problem,
+   des Anzeigens der Steckbriefinhalte, zu arbeiten.
+
+   Da die gespeicherten Datensätze nicht alle auf einmal angezeigt werden sollen, sondern es Buttons mit entsprechenden Namen geben soll,
+   die dann per Klick auf den kompletten Steckbriefdatesatz einer Person verweisen, habe ich zuerst einmal eine foreach-Schleife programmiert,
+   die alle Namen ausliest und anzeigt. Der Button besteht aus einer Grafik und wird später per HTML mit Link auf die richtige Steckbriefseite
+   versehen.
+
+   Ich war mir zunächst unschlüssig darüber, wie sich die ausgewählte Variable auf die Folgeseite übertragen lässt.
+   Dort wollte ich die vorher ausgewählte Variable(also den Namen) wieder mit den Einträgen in der Tabelle vergleichen und dann den dazugehörigen
+   Datensatz auslesen.
+   
+   Mein erster Gedanke war, die Variable mit GET oder POST zu übertragen, was mir aber nicht gelang. Daher probierte ich SESSION aus und konnte
+   tatsächlich eine Variable übertragen. Bisher funktionierte es aber nur sehr eingeschränkt, da immer nur die erste Variable des letzten Datensatzes
+   übertragen wird.
+
+    
+
+   

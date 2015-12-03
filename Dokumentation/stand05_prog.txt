@@ -1,0 +1,17 @@
+
+4. Da ich ein paar Schwierigkeiten damit hatte, die Daten wieder abzufragen, bzw. anzeigen zu lassen und auch langes herumprobieren
+   und recherchieren nicht von Erfolg gekrönt war, widmete ich mich einer anderen Funktion, um mich später wieder mit dem
+   Problem zu befassen.
+   
+   Daher erstellte ich zunächst eine Datumsfunktion, die später an den oberen, rechten Rand der HTML-Dateien eingebunden werden soll.
+
+    
+   Die Erinnerungsfunktion entpuppte sich jedoch als komplizierter, als ich es anfangs dachte. Diese Funktion sollte dem Benutzer
+   mitteilen, dass einer seiner angelegten Personen demnächst Geburtstag hat und es Zeit ist, ein Geschenk zu besorgen.
+   Dazu überlegte ich mir, dass vom Geburtsdatum das aktuelle Datum abgezogen wird und wenn ein bestimmter Wert(vielleicht 7 Tage) 
+   dabei rauskommt, erscheint ein Hinweis.
+   Zunächst musste ich also ersteinmal das gespeicherte Geburtstag aus der csv-Datei auslesen. Dazu öffnete ich die Datei und
+   und trennte die Spalten mithilfe eines Semikolon. An dieser Stelle merkte ich, dass ich mich erst intensiver mit dem Abfragen und
+   anzeigen beschäftigen musste um weiterzukommen.
+
+  
