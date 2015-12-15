@@ -1,4 +1,9 @@
-
+header{
+	
+	max-width: 100%;
+  height: auto;
+  width:110%;
+}
 
 body{
 	
@@ -14,11 +19,7 @@ main{
 	
 	margin: auto;
 }
-h1{
 
-
-color:#fffafa;
-}
 /* Gestaltung der Links */
 a:link {
 	color:#fffafa;
@@ -98,11 +99,18 @@ input.text{
  
 input.submit{
 cursor:pointer;
-font-size:14px; 
+width: 20%;
+height: 10%;
 border:0; 
 float:right;  
 font-weight:bold;
-background-color: #ffffff;
+background-color: #9c0047;
+color: #ffffff;
+	background-image: url('images/logo.gif');
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	padding-left: 1.75em;
 
 }
 
@@ -116,8 +124,4 @@ textarea {
 	border-bottom:1px solid #333; 
 	transition: border 0.3s;
 	
-}
-
-logo{
-	magrin: auto;
 }

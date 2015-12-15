@@ -10,3 +10,12 @@ Bitte dokumentieren Sie kontinuierlich den Fortschritt Ihres Projektanteils.
 Nur so kann ich Ihnen ggf. hilfreiche Hinweise geben und erkennen, wie Sie vorankommen.
 
 === Feedback Alpers, Ende ===
+
+
+Stand HTML 04.12.15
+
+Es wurden verschiedene Fromulare erstellt . Zum einen ein Registrier Fromular zum anderen ein Steckbref Formular. Beide Fromulare 
+bestehen aus verschiedenen Input-typen, Klassen und id's. Sie sind angepasst an die jeweiligen PHP-Datein.
+Desweiteren wurden die Farben in der CSS Datei angepasst sowie Größe, Schrift und STil der Submit Buttons.
+Der nächste Schritt besteht darin weitere Container einzubinden und andere Anpassungen mit PHP vorzunehmen. 
+Außerdem ist vorgesehen die verschiedenen Container mittels CSS richtig zu positionieren und die Funktionen zu testen. 
