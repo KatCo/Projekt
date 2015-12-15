@@ -2,7 +2,7 @@ header{
 	
 	max-width: 100%;
   height: auto;
-  width:110%;
+  
 }
 
 body{
@@ -12,6 +12,12 @@ body{
 	background-image: url("images/hintergrund.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+
+footer{
+margin:500px;	
+	
+	
 }
 main{
 	
