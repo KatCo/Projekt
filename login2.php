@@ -17,7 +17,7 @@ while  ($data = fgetcsv($benutzerdatei, 1000, ";")) { //Inhalt wird Zeile für Ze
 }
 		if ($temp == 1) {						//ist $temp 1, so erscheint ein Login-Hinweis
 			echo "Hi, $name du bist eingeloggt!";
-			include("hinzufuegen.html");
+			include("auswahl.html");
 		}
 		else {									//Andernfalls müssen die Benutzerdaten erneut eigegeben werden
 			echo "Deine Nutzerdaten sind falsch. Versuche es noch einmal!";
