@@ -1,8 +1,20 @@
 header{
 	
 	max-width: 100%;
-  height: auto;
+	height: auto;
   
+}
+
+h1{
+	
+	font-family: Arial;
+	color: #ffffff;
+}
+
+h3{
+	
+	font-family: Arial;
+	color:#ffffff;
 }
 
 body{
@@ -11,18 +23,21 @@ body{
 	text-align:center;
 	background-image: url("images/hintergrund.jpg");
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
+	color: #ffffff;
+	font-family:Georgia;
+
 }
 
 footer{
-margin:500px;	
+margin:200px;	
 	
 	
 }
 main{
 	
 	width: 600px;
-	
+	line-height: 40px;
 	margin: auto;
 }
 

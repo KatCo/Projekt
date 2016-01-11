@@ -10,23 +10,39 @@
 		</header>	
 			
 			
-		<h3>Anmeldung</h3>
-		<body>
-		<main>
-			<form action="login2.php" method="post">
-				<p>Benutzername
-					<input type="text" name="username" class=text />
-				</p>
-				<p>Passwort
-					<input type="password" name="password" class=text  />
-				</p>
-					<input type="submit" class=submit>
+			<h3>Anmeldung</h3>
+				<body>
+					<main>
+						<form action="login2.php" method="post">
+						<label for=name>Name</label>
+					<input type=text id=surname name=name class=text required=required>
+					<br>
 					
-			</form>
-		</main>
-		<p>
+					<label for=pass>Passwort</label>
+					<input type=password name=pass id=password class=text required=required>
+					<br>
+							<input type="submit" class=submit>
+							
+						</form>
 						<a href="reg.html"><button> Registrierung</button></a>
-		</p>
+						
+											<details>
+												  <summary>Ein paar Infos</summary>
+												  <p>Melde dich an oder registriere dich</p>
+											</details>
+					</main>
+		
+		</body>
+		
+			<footer>
+				<ul>
+					<li><a href="impr.html" titel="Impressum"> <b>Impressum</b></a></li>
+				</ul>
+			</footer>
+			
+			<aside>
+				<p><a href="#top">Ein Anker nach oben!</a></p>
+			</aside>
 		</body>
 </html>
 
