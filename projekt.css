@@ -11,6 +11,11 @@ h1{
 	color: #ffffff;
 }
 
+h2{
+	font-family: Arial;
+	color:#ffffff;
+}
+
 h3{
 	
 	font-family: Arial;
@@ -125,11 +130,12 @@ height: 10%;
 border:0; 
 float:right;  
 font-weight:bold;
-background-color: #9c0047;
+
 color: #ffffff;
 	background-image: url('images/logo.gif');
 	background-position: left center;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: 20%;
 	padding-left: 1.75em;
 
