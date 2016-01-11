@@ -46,6 +46,7 @@ if ($pass == $pass2) {
 		fclose($benutzerdatei); //Datei wird geschlossen
 		
 		echo $name.", deine Anmeldung war erfolgreich! Jetzt kannst du loslegen! ";
+		include ("auswahl.html");
 	}
 	
 }
