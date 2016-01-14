@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang=de>
+
+	<head>
+	
+		<meta charset=utf-8>
+		<link rel=stylesheet href=projekt.css>
+		<title>Geschenke Manager</title>
+	</head>
+		<body>
+			
+				<header class="wrapper clearfix" onclick="window.href='index.php';"> </header>
+			
+			<main>
+				
+					<h1>Erstelle deinen Steckbrief über einen Freund!</h1>
+						<ul>
+			
+							<form action="formsave.php" method="post">
+								<fieldset>
+									<legend> Lege deinen Steckbrief an</legend>
+											<!--Hier wird der Steckbrief erstellt.-->
+											<label for=sex>Geschlecht</label>
+											<input type=radio name=sex value=m checked=checked >M
+											<input type=radio name=sex value=w checked=checked >W
+											<label for=firstname>Name</label>
+											<input type=text name=firstname class=text id=firstname>
+											<br>
+											<label for=birthdate>Geburtstag</label>
+											<input type=date name=birthdate class=text id=birthdate>
+											<br>
+											<label for=hobbys>Interessen</label>
+											
+											<textarea name=hobbys> Schreibe etwas über die Hobbys...</textarea>
+											<br>
+											<label for=note>Anmerkungen</label>
+											
+											<textarea name=note> hier ist Platz für weitere Notizen</textarea>
+											<br>
+											
+											<input type=submit class=submit name=save value=Speichern>
+											
+								</fieldset>
+							</form>
+							
+											<details>
+												  <summary>Ein paar Infos</summary>
+												  <p>Hier hast du die Möglichkeit einen Steckbrief zu erstellen, auf den du später zurück greifen kannst</p>
+											</details>
+							
+			
+						</ul>
+				
+				</main>
+			
+			<footer>
+				<ul>
+					<li><a href="impr.html" titel="Impressum"> <b>Impressum</b></a></li>
+				</ul>
+			</footer>
+			
+			<aside>
+			<p><a href="#top">Ein Anker nach oben!</a></p>
+			</aside>
+		</body>
+</html>
