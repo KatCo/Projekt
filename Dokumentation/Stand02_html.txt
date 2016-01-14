@@ -19,3 +19,11 @@ bestehen aus verschiedenen Input-typen, Klassen und id's. Sie sind angepasst an 
 Desweiteren wurden die Farben in der CSS Datei angepasst sowie GrÃ¶ÃŸe, Schrift und STil der Submit Buttons.
 Der nÃ¤chste Schritt besteht darin weitere Container einzubinden und andere Anpassungen mit PHP vorzunehmen. 
 AuÃŸerdem ist vorgesehen die verschiedenen Container mittels CSS richtig zu positionieren und die Funktionen zu testen. 
+
+
+Stand HTML 14.01.16
+
+Die Impressum Seite wurde hinzugefügt und verlinkt. Ein Details Container mit einem Summary Container mit jeweiles kleinen Informationen wurde ebenfalls hinzugefügt. Der Banner wurde in CSS angepasst. Auch die Index Seite wurde neu angepasst in CSS.
+
+Es folgt die überprüfung der Weiterleitung von der Index Seite auf die Registrieungs Seite und die Auwahl Seite.
+
