@@ -26,6 +26,7 @@ $handle = fopen("csvformular.csv", "a+");//Datei wird geöffnet, Modus a+ = Lesen
 	fclose($handle); //Datei wird wieder geschlossen
 	
 	echo("Danke, der Steckbrief von ".$name." wurde gespeichert!");
+	include ("freunde.php");
 
 
 ?>
