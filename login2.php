@@ -63,3 +63,15 @@ while  ($data = fgetcsv($benutzerdatei, 1000, ";")) { //Inhalt wird Zeile für Ze
  
  */
 	?>
+	
+<!--
+=== Feedback Alpers, Jan 15 ===
+
+Wie schon in freunde.php geschrieben ist es wichtig, dass Sie an der Einrückung von Inhalten von Rümpfen arbeiten,
+sonst werden Sie bei umfangreichen Projekten nicht einmal den eigenen Quellcode lesen können.
+
+Bitte löschen Sie auch alles, was nicht mehr verwendet werden soll. Wenn Sie alten Code nachschlagen wollen, können
+Sie bei Git einfach ins Repository gehen und frühere Versionen wieder aufrufen.
+
+=== Feedback Alpers, Ende ===
+-->

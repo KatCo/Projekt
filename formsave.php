@@ -39,3 +39,14 @@ Sie haben damit, mit Ihrer Dokumentation und mit den entwickelten Programmen gez
 im Stande sind, als vollwertiges Mitglied in einem Team zur Softwareentwicklung zu arbeiten.
 
 === Feedback Alpers, Ende ===
+-->
+
+<!--
+=== Feedback Alpers, Jan 15 ===
+
+Bitte prüfen Sie die Auswirkung der include()-Anweisung am Ende. Die Datei freunde.php ist 
+eine HTML-Datei, die PHP-Code eingebettet hat. include() ist dagegen dafür gedacht, um PHP-Code
+aus einer anderen Datei an der aktuellen Stelle zu integrieren.
+
+=== Feedback Alpers, Ende ===
+-->
