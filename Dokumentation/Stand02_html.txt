@@ -23,12 +23,22 @@ AuÃŸerdem ist vorgesehen die verschiedenen Container mittels CSS richtig zu posi
 
 Stand HTML 14.01.16
 
-Die Impressum Seite wurde hinzugefügt und verlinkt. Ein Details Container mit einem Summary Container mit jeweiles kleinen Informationen wurde ebenfalls hinzugefügt. Der Banner wurde in CSS angepasst. Auch die Index Seite wurde neu angepasst in CSS.
+Die Impressum-Seite wurde hinzugefügt und verlinkt. Ein Details Container mit einem Summary Container mit jeweiles kleinen Informationen wurde ebenfalls hinzugefügt. Der Banner wurde in CSS angepasst. Auch die Index-Seite wurde neu angepasst in CSS.
 
-Es folgt die Überprüfung der Weiterleitung von der Index Seite auf die Registrieungs Seite und die Auwahl Seite.
+Es folgt die Überprüfung der Weiterleitung von der Index-Seite auf die Registrieungs-Seite und die Auwahl Seite.
 
 ---
 
 die Seite freunde.html wurde erstellt auf dieser Befinden sich zwei Buttons "hinzufügen" und "löschen".
+---
 
-Die Buttons müssen jetzt dementsprechend verlinkt werden.
+Buttons werden durch ein Menü ersetzt.
+Steckbrief unterteilung wurde Vorgenommen, da es sich anders nicht kategorisieren lässt.
+---
+
+Zwei hinzufuegen-Seiten sind ebenfalls notwendig
+
+Stand HTML 08.02.16
+
+microdata items wurden eingefÃ¼gt, ein Text der die Anwedung beschreibt wurde erstellt, ein erster Versuch fÃ¼r die Buttons auf der Freunde und Familie Seite wurde mittels CSS erstellt.
+Es folgt die ausarbeitung der Buttons, weitere ÃœberprÃ¼fung der Struktur, und die Ãœberarbeitung der Impressum-Seite.
