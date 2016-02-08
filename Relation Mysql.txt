@@ -1,0 +1,14 @@
+
+
+
+
+
+
+# verbindung zwieschen Tabelle Daten und category 
+
+select  Vorname ,Nachname,Geburtsdatum,Age,Hobbys FROM Daten 
+ inner join category On idDaten.category_category_id=category_category_id;
+
+ #Foreign key category_id
+# inner join gibt alle rows von erste und
+  zweite tabelle aus sobald ein treffer ist
