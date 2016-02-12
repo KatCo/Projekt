@@ -35,6 +35,19 @@ CREATE TABLE `gechenkmanager`.`freunde` (
 select   familie .Vorname ,freunde.Vorname
 from familie LEFT JOIN freunde On familie;
 
+/*
+=== Feedback Alpers, Feb 12 ===
 
+Als MySQL-Code für die Erzeugung von Relationen sieht das gut aus, aber es fehlen noch zwei
+entscheidende Details: Zum einen die Einbindung in den PHP-Code, zum anderen die Transaktionen,
+mit denen später im Laufe des Programms Daten in der DB gespeichert oder von dort geladen werden.
 
+Offengstanden wirkt der Code zurzeit so, als wenn Sie ihn mittels Tools generiert hätten. 
+Das ist auch vollkommen legitim, aber Sie müssen im Stande sein, Code manuell anzupassen.
+Und da helfen Ihnen solche Tools nur wenig. Deshalb ist es Ihre Aufgabe im Rahmen des Projekts 
+selbst MySQL zu programmieren.
 
+Anm.: Das bezieht sich auch auf die übrigen Dateien wie MG mysql.txt und Mysql Geschenkmanager neu.txt
+
+=== Feedback Alpers, Ende ===
+*/
