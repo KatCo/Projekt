@@ -1,0 +1,8 @@
+
+insert into mydb.Login(idLogin,name ,Password,)values();
+
+
+
+insert into mydb.Daten(idDaten, Vorname,Nachname,Geburtsdatum,
+  Age,Hobbys,category_category_id)
+values();

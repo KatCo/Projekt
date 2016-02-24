@@ -1,0 +1,28 @@
+konfiguration.php - Einstellungen für DB-Zugriff
+<?php
+ 
+// Zum Aufbau der Verbindung zur Datenbank
+
+define ( 'MYSQL_HOST',      'localhost3306' );
+ 
+
+define ( 'MYSQL_BENUTZER',  'root' );
+define ( 'MYSQL_KENNWORT',  'nichtöffentlich' );
+
+//   DB 
+define ( 'MYSQL_DATENBANK', 'mydb' );
+?>
+
+//Aufbau der verbindung erfolgt über :mysql_connect
+
+//PHP verbindungsaufbau
+
+<?php
+require_once('konfiguration.php'):
+$db_link = mysql_connect (
+                     MYSQL_HOST, 
+                     MYSQL_BENUTZER, 
+                     MYSQL_KENNWORT, 
+                     MYSQL_DATENBANK
+                    );
+?>
