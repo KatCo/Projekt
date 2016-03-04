@@ -147,3 +147,15 @@ SELECT  Vorname ,Nachname,Geburtsdatum,Age,Hobbys FROM Daten # $query PHP Abfrag
 
   ORDER BY idDaten;;
 
+# Feedback Alpers, Mär 45
+# 
+# Das ist ein Skript, um die Tabellen der DB zu erzeugen, aber bislang sehe
+# ich bezügl. der DB-Einbindung ins Projekt nur Code, mit dem die DB 
+# an eine PHP-Variable gebunden wird sowie zwei Transaktionen,
+# die weitestegehend für sich stehen.
+# (Die befinden sich in den Dateien "Datei speichern.txt" und 
+# "Einbindung in der ...")
+#
+# Da fehlt mir eine ernsthafte Nutzung der DB als Teil des Projekts.
+#
+# Feedback Alpers, Ende
