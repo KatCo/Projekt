@@ -1,0 +1,34 @@
+ SET AUTOCOMMIT=0; #Autocommit deaktivieren
+ 
+
+ start transaction ;
+
+
+
+INSERT INTO mydb.Login (idLogin,name, Password)
+
+Values();
+
+
+
+SET @ idLogin=LAST_INSERT_ID;
+
+INSERT INTO mydb.Daten (idDaten,Vorname,,Nachname,Geburtsdatum,Age,Hobbys,
+category_category_id)
+  
+ Values();
+   
+
+SET @ idDAten=LAST_INSERT_ID;
+
+ 
+
+commit;# Macht Änderungen dauerhaft
+
+ select  Vorname ,Nachname,Geburtsdatum,Age,Hobbys 
+FROM Daten
+
+ inner join category On idDaten.category_category_id=category_category_id
+ ORDER BY idDaten;;
+ 
+
