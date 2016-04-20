@@ -147,7 +147,7 @@ SELECT  Vorname ,Nachname,Geburtsdatum,Age,Hobbys FROM Daten # $query PHP Abfrag
 
   ORDER BY idDaten;;
 
-# Feedback Alpers, Mär 45
+# Feedback Alpers, Mär 4
 # 
 # Das ist ein Skript, um die Tabellen der DB zu erzeugen, aber bislang sehe
 # ich bezügl. der DB-Einbindung ins Projekt nur Code, mit dem die DB 
@@ -159,3 +159,14 @@ SELECT  Vorname ,Nachname,Geburtsdatum,Age,Hobbys FROM Daten # $query PHP Abfrag
 # Da fehlt mir eine ernsthafte Nutzung der DB als Teil des Projekts.
 #
 # Feedback Alpers, Ende
+
+# === Feedback Alpers, Apr 20 ===
+#
+# Vielleicht war das Feedback letztes Mal missverständlich: Was Sie tun sollen ist,
+# Transaktionen in den PHP-Code des Projekts einzufügen, sodass die Datenbank tatsächlich Teil der Anwendung
+# ist und sinnvoll genutzt wird, um Daten in der DB abzuspeichern oder von dort auszulesen.
+# Es ist dabei nicht Ihre Aufgabe, den PHP-Code selbst zu erstellen; alles was Sie tun müssen ist,
+# die Transaktionen mittels Kommentaren an den passenden Stellen in den PHP-Code einzufügen,
+# sodass ein PHP-Entwickler den MySQL-Code entsprechend als Teil von PHP-Code nutzen kann.
+#
+# === Feedback Alpers, Ende ===
