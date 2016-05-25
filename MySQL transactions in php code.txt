@@ -1,0 +1,68 @@
+
+<?php
+
+$db = mysqli_connect("localhost", „root“, "Passwort", „Mydb.Daten“);
+
+	
+		if(!$db)				
+		{
+			exit("Fehler: ".mysqli_connect_error()); 
+		}
+	
+	?>
+
+  //speichern von Formularinhalten in Tabelle mydb.Daten
+
+  $mysql->begin _transaction();
+  
+$query="INSERT INTO mydb.Daten(firstname ,birthdate,hobbies,note)
+VALUES
+	
+	    $name = $_POST["firstname"];
+	     $geb = $_POST["birthdate"];
+	     $hobby = $_POST["hobbies"];
+	     $note = $_POST["note“]";
+//Hier weiter mit PHP
+$mysql->commit();
+
+
+
+//speichern von Formularinhalten in Tabelle mydb.Login
+
+$mysql->begin _transaction();
+   $query=“INSERT INTO mydb.Login(name,Password)
+   VALUES
+
+    $name = $_POST["name"];
+
+     $Password = $_POST[„Password“];
+
+  
+or die (mysql_error());
+
+$mysql->commit();
+
+
+//Datei aus Tabelle mydb.Daten selektieren
+  
+$mysql->begin _transaction();
+
+$result=mysql_query(‘SELECT  name ,birthday,Hobbies FROM Daten 
+	
+
+	 left join category On idDaten.category_category_id=category_category_id  
+ORDER BY idDaten‘)
+$mysql->commit();
+
+//PHP session start mit MySQL
+
+#1.Verbindung aufbauen mit DB 
+$db = mysqli_connect("localhost", „root“, "Passwort", „Mydb.Login“);
+
+ 
+	$sql = "SELECT * FROM mydb.Login WHERE
+	name = '$name‘ AND password = PASSWORD('$pwd')";
+	$result = mysql_query($sql); 
+	
+	//hier weiter mit php 
+
