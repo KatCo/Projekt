@@ -66,3 +66,11 @@ $db = mysqli_connect("localhost", „root“, "Passwort", „Mydb.Login“);
 	
 	//hier weiter mit php 
 
+/**
+===================================
+=== Feedback Alpers, 2016-06-23 ===
+===================================
+
+Hier haben Sie zwar kaum interessante Daten aus der DB ausgelesen, aber zumindest haben Sie konkrete Fälle implementiert, die für die Anwendung relevant sind und sie sinnvoll in PHP eingebettet. Da der Rest Ihres Teams nicht weiter am Projekt arbeitet, Sie also keine Möglichkeit haben, allzu umfangreiche Erweiterungen durchzuführen genügt das.
+
+*/
